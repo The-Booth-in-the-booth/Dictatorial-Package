@@ -215,6 +215,15 @@
                             }
                         ]
                     },
+                    "review": {
+                        "requires": 1,
+                        "conditions": [
+                            {
+                                "type": "titleMatches",
+                                "pattern": "(?<=\\[)R(?=\\])"
+                            }
+                        ]
+                    },
                     "config": {
                         "requires": 1,
                         "conditions": [
